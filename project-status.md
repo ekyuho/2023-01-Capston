@@ -1,4 +1,4 @@
-# Team1 01
+# Team1. peacebite
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1EqL8_-kZcv3yiphClA6amsuDETVM9pmd
 ### 무얼 만들었는가
@@ -29,7 +29,7 @@ AWS 서버비용 50만원
 ### 기타
 없음
 
-# Team2 02
+# Team2. 김서방
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1C9zbGs860rAKlW0BkOIadK68K3fOPe1v
 ### 무얼 만들었는가
@@ -61,7 +61,7 @@ yolov5를 이용하여 10000개 이상의 이미지 학습 예정  사용(ai 모
 ### 기타
 없음
 
-# Team3 03
+# Team3. 369
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1bjggR1dJj9LNY_flrlmIwH2vg9eL_u5E
 ### 무얼 만들었는가
@@ -94,7 +94,7 @@ AWS S3를 사용할 예정이며, 현재 서비스 개발이 완료된 상태가
 ### 기타
 없습니다.
 
-# Team4 04
+# Team4. 고민박살
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1AZykt2kG7CzMOGMrWaENFVNlomf-jTZd
 ### 무얼 만들었는가
@@ -125,7 +125,7 @@ relational DB를 바탕으로 한 웹 서비스 배포를 하려고 합니다. �
 ### 기타
 없음
 
-# Team5 05
+# Team5. TEAJAVA
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=11kBn3zEsIumzh3sMB0ymeQLjmw88z2V0
 ### 무얼 만들었는가
@@ -155,7 +155,7 @@ AWS로 URL을 통해 외부에서 접속할 수 있도록 합니다. 현재까�
 ### 기타
 없음
 
-# Team6 06
+# Team6. VISTA
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1MY0mIv9T1yarZ5zxBB6eMi0kKSM3znHz
 ### 무얼 만들었는가
@@ -183,7 +183,7 @@ Tensorflow 를 사용합니다.
 ### 기타
 없습니다
 
-# Team7 07
+# Team7.  COYD
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1uWNLHgf0YxHPEvAblkYJIeOK3IHmPDFq, https://drive.google.com/open?id=1q2DZpevUbEFIhJcNl1HIOBs_jaMDuPME, https://drive.google.com/open?id=1-Ha64QZ3GZEB-rYuI4VVPX3cR-J4-nP8, https://drive.google.com/open?id=1eFQYkbN0tAuSKxWtobwF89r5_Ldjs5Mx, https://drive.google.com/open?id=1x0x6WNrLA9ID2Jj2wlXlkbWoWjXpsA42
 ### 무얼 만들었는가
@@ -217,7 +217,7 @@ npm @openzeppelin-solidity
 ### 기타
 없음
 
-# Team8 08
+# Team8. 어푸어푸
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1ffptYCT54IDsl5lPkmYUjOZR43hMCXNR
 ### 무얼 만들었는가
@@ -258,7 +258,7 @@ Yolov5를 이용합니다. pyTorch를 이용하고, dji tello 라이브러리를
 ### 기타
 없음
 
-# Team9 09
+# Team9. L2K
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1B7d09pticyBxwzl-pgfyVOvP9tP2-Xwr
 ### 무얼 만들었는가
@@ -291,7 +291,7 @@ AWS를 통해 배포할 예정입니다.
 ### 기타
 없습니다.
 
-# Team10 10
+# Team10. 나는가수다
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1gMUWTkyBQdxX16hGLnpC3eTam1CTPL97
 ### 무얼 만들었는가
@@ -331,7 +331,7 @@ OCR 모델 학습을 위해 GPU 클라우드를 사용할 계획입니다. 방�
 ### 기타
 없음
 
-# Team11 11
+# Team11. JeongHyoYeon
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1YClJbVEN3oZjNL3-O-uuBAi_4jBE9tOU
 ### 무얼 만들었는가
@@ -405,7 +405,7 @@ AWS의 cloudfront 사용 - js의 정적 파일 배포하기 위해서 사용
 ### 기타
 없음
 
-# Team12 12
+# Team12. 함꼐가자
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1LvQX1cJokF-lqtqg7Ctrpd_gfaCwjM_z
 ### 무얼 만들었는가
@@ -435,7 +435,7 @@ Socket.io: https://socket.io
 ### 기타
 없음
 
-# Team13 13
+# Team13. ,대함현즈
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1YOCh5dz6fGsOB2tgbypScwR-xPoSfaAY
 ### 무얼 만들었는가
@@ -461,7 +461,7 @@ AWS
 ### 기타
 없음
 
-# Team14 14
+# Team14. 고글
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=13n7gzgPQY3kZQQWFhxNNw51Ep8Zko1eb
 ### 무얼 만들었는가
@@ -509,7 +509,7 @@ GPU 클라우드 사용 계획입니다.
 ### 기타
 없음
 
-# Team15 15
+# Team15. 조이룸(joyrOOOm)
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1Yrxp897Fsr6DrKQm_VAbQF5tH6vmKaKP
 ### 무얼 만들었는가
@@ -549,7 +549,7 @@ Google Cloud SQL, Google Storage Service : 사진 저장, 데이터베이스 배
 ### 기타
 없음
 
-# Team16 16
+# Team16. ea9gu
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1eSDOWQGR-o2tQ1NRNpN6C0mSW-2BqoHL
 ### 무얼 만들었는가
@@ -583,7 +583,7 @@ AWS - 배포, 호스팅
 ### 기타
 없음
 
-# Team17 17
+# Team17. 메멘토
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1YwfKctIi-juGjHOBxGUqyIi1SoVryyc9
 ### 무얼 만들었는가
@@ -612,7 +612,7 @@ https://drive.google.com/open?id=1YwfKctIi-juGjHOBxGUqyIi1SoVryyc9
 ### 기타
 없음
 
-# Team18 18
+# Team18. 우리는삼총사
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1uUGkAY7Sy_kp6wIAAKpabt9vWXNNgn8l
 ### 무얼 만들었는가
@@ -649,7 +649,7 @@ AWS RDS - 데이터베이스 구축을 위해 사용하고 있습니다.
 ### 기타
 없음
 
-# Team19 19
+# Team19. eLENS
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1rRcFXyMtxxkfbJ3M1CPJxtBDns0jTHHa
 ### 무얼 만들었는가
@@ -685,7 +685,7 @@ Colab Pro+, 월 49.99$, 용량이 큰 데이터셋에서 딥러닝 모델 학습
 ### 기타
 없음
 
-# Team20 20
+# Team20. 다섯시삼십분
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1TBu-O_p66kHltucaOl0NXss_he9hiqwg
 ### 무얼 만들었는가
@@ -730,7 +730,7 @@ etherscan 거래 수수료/월 1만원/지갑 스캔
 ### 기타
 없음
 
-# Team21 21
+# Team21. 백조
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1413jtnGtzZPS9u773nSXjhkLQP2f_D-l
 ### 무얼 만들었는가
@@ -765,7 +765,7 @@ pytorch언어를 사용하여 인공지능 모델을 개발합니다.
 ### 기타
 없습니다.
 
-# Team22 22
+# Team22. 영시스터즈
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=18MgBSlCxiJ6Tnm7jPJwR4cm5Rx8sOktB
 ### 무얼 만들었는가
@@ -793,7 +793,7 @@ S3 - 사용자 음성 녹음 데이터 저장 위함
 ### 기타
 없다.
 
-# Team23 23
+# Team23. 골투더퓨처
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1UvZf8CzSuAexXBd3ZXHn4VoCjpQ36HX3
 ### 무얼 만들었는가
@@ -827,7 +827,7 @@ deepsort(https://github.com/mikel-brostrom/yolov8_tracking), Yolov5와 함께 �
 ### 기타
 없음
 
-# Team24 24
+# Team24. 캐릭캐릭뮤직체인지
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1cUzBgv97MnaDXkxlc7_NddbO8zShhQnW
 ### 무얼 만들었는가
@@ -857,7 +857,7 @@ groove2groove(https://github.com/cifkao/groove2groove.git)-음악 스타일 트�
 ### 기타
 없음
 
-# Team25 25
+# Team25. 밤낮박김
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1x_QW22-q6Tovr_wSHqdBc14aaJk3FbX5
 ### 무얼 만들었는가
@@ -889,7 +889,7 @@ KoBART: 맞춤법 검사, 격식 문장 변환
 ### 기타
 없음
 
-# Team26 26
+# Team26. yeahcherry
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1qQrybiq5TwD64epeEhtTav4qHUa5AS00
 ### 무얼 만들었는가
@@ -923,7 +923,7 @@ AI 구현에 있어서 좀 더 효율적이고 정확도 높은 구현 방식을
 강의실 자리가 바뀌었으면 좋겠습니다.
 
 expecting 27 got 28 MISSING **************
-# Team28 28
+# Team28. 이김조
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1NpzRPKr7wl_sBoVwbvuUdRlreT8bkRlH
 ### 무얼 만들었는가
@@ -965,7 +965,7 @@ GPU클라우드 사용할 계획은 있으며, 대략적인 예상 사용량은 
 스타트때 사업자 등록을 했었는데, 해당 사업자등록증으로 사업자 등록 가산점을 받을 수 있을까요? 
 아니면 새로운 업종으로 사업자 등록을 해야할까요?
 
-# Team29 29
+# Team29. 나인틴
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1vwizJNtmjBurXEGxU_8zvklGzp_qLoeV
 ### 무얼 만들었는가
@@ -999,7 +999,7 @@ Apple Developer Program, $99, iOS의 경우 앱 배포(테스트배포 포함)�
 ### 기타
 없음
 
-# Team30 30
+# Team30. 찐감자
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1dTKNpfkApiQEpbGspJmpT0FxKwRgHsf5
 ### 무얼 만들었는가
@@ -1028,7 +1028,7 @@ AWS 사용 예정
 ### 기타
 없다
 
-# Team31 31
+# Team31. 존버그
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1NfNu-Ap2V1yeDlfS-ngyXAY91Jm-eWTI
 ### 무얼 만들었는가
@@ -1063,7 +1063,7 @@ AWS
 ### 기타
 없음
 
-# Team32 32
+# Team32. 분노의추적
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=16kdd0wVj9aZpovWpCdfC2AllVkj9QmsG
 ### 무얼 만들었는가
@@ -1099,7 +1099,7 @@ https://github.com/anandhotwani/obj_raytracer
 ### 기타
 없음
 
-# Team33 33
+# Team33. 삼문철
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1KE7-rUKNdGNblYHeXYjv_cvXax29bvhh
 ### 무얼 만들었는가
@@ -1127,7 +1127,7 @@ aws s3에 영상 저장을 하고 있습니다.
 ### 기타
 없음
 
-# Team34 34
+# Team34. 해오름시샘
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1dLmG0iqh5vfpV1G6-5LgVhrwM2rsRspf
 ### 무얼 만들었는가
@@ -1156,7 +1156,7 @@ firebase의 firestore를 사용하여 요가 포즈 분별을 위한 데이터 �
 ### 기타
 없음
 
-# Team35 35
+# Team35. 김앤장
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1LX8iJ0Vx54onxx0E6HrMhm-GTn-0rVjf
 ### 무얼 만들었는가
