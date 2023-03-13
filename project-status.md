@@ -49,11 +49,9 @@ https://drive.google.com/open?id=1bjggR1dJj9LNY_flrlmIwH2vg9eL_u5E
 ### 사용한 오픈소스
 - 시스템 구성에 있어서 모든 항목은 직접 구현하였음
 ### 사용한 AI
-    1. 영수증에서의 horizontal text detection을 위한 CTPN (Connectionist Text Proposal Network)를 PyTorch를 사용하여 구현하였음.
-
-    2. 영수증에서 감지한 <text 영역>에서의 문자를 검출하기 위하여 HENNet(=Hangul English Number Net)을 (영감을 준 source는 한글만을 위한 HangulNet, 2022이었으나 우리 서비스의 특성상 영어와 숫자 인식이 필수였기에 영어와 숫자인식도 가능하도록 모듈을 변형) Pytorch 로 구현하여 현재 학습중임.
-
-    3. 영수증에서 각 검출한 문자들이 <상품>인지, <수량>인지등의 유형도 구분하여서 서비스에서 유저에게 보여줘야 하기 때문에 우선은 영수증에서의 상대적인 위치등을 기반으로 나누어줄 생각이다. (여기서는 최대한 AI기술을 사용하지 않고 앞선 recognition module의 정확도를 최대로 올려 줄 생각이다. - 만약 잘 안된다면 앞선 detection 모듈에서 text box감지와 더불어서 어떤 유형인지도 동시에 예측하게 할 생각이다. 그런데 데이터 라벨링을 직접 해야 해서 현재는 데이터 전처리중.. 모델은 그냥 CTPN의 output feedforward layer에 classification head하나만 추가하면 되기 때문에 문제 없음.)
+1. 영수증에서의 horizontal text detection을 위한 CTPN (Connectionist Text Proposal Network)를 PyTorch를 사용하여 구현하였음.
+2. 영수증에서 감지한 <text 영역>에서의 문자를 검출하기 위하여 HENNet(=Hangul English Number Net)을 (영감을 준 source는 한글만을 위한 HangulNet, 2022이었으나 우리 서비스의 특성상 영어와 숫자 인식이 필수였기에 영어와 숫자인식도 가능하도록 모듈을 변형) Pytorch 로 구현하여 현재 학습중임.
+3. 영수증에서 각 검출한 문자들이 <상품>인지, <수량>인지등의 유형도 구분하여서 서비스에서 유저에게 보여줘야 하기 때문에 우선은 영수증에서의 상대적인 위치등을 기반으로 나누어줄 생각이다. (여기서는 최대한 AI기술을 사용하지 않고 앞선 recognition module의 정확도를 최대로 올려 줄 생각이다. - 만약 잘 안된다면 앞선 detection 모듈에서 text box감지와 더불어서 어떤 유형인지도 동시에 예측하게 할 생각이다. 그런데 데이터 라벨링을 직접 해야 해서 현재는 데이터 전처리중.. 모델은 그냥 CTPN의 output feedforward layer에 classification head하나만 추가하면 되기 때문에 문제 없음.)
 ### 사용한 클라우드
 AWS S3를 사용할 예정이며, 현재 서비스 개발이 완료된 상태가 아니기 때문에 비용은 들지 않았음.
 
