@@ -765,6 +765,7 @@ AWS - EC2, RDS, S3 사용중 (1년 무료티어 사용중으로 아직까지 과
 https://drive.google.com/open?id=10RKYxvJ_kEkdgPAcio6BWhtmGFT8HD8w
 ### 무얼 만들었는가
 1️. 가상현실 속에서, 3D 모델링한 도시(City)를 배경으로 3D 페인팅(Paint) 서비스
+
 2️. 증강현실 기술을 통해, 실제 도시(City)에 작품(Paint)을 띄워 관람하는 서비스
 ### 구현환경
 1. OS : ubuntu (AWS의 가상머신 이용)
