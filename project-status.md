@@ -171,7 +171,7 @@ https://drive.google.com/open?id=1B7d09pticyBxwzl-pgfyVOvP9tP2-Xwr
 ### 사용한 클라우드
 AWS를 통해 배포할 예정입니다.
 
-# Team10. 나는가수다
+# Team10. GSD
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1gMUWTkyBQdxX16hGLnpC3eTam1CTPL97
 ### 무얼 만들었는가
