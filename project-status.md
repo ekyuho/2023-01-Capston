@@ -214,6 +214,9 @@ https://drive.google.com/open?id=1YClJbVEN3oZjNL3-O-uuBAi_4jBE9tOU
 3. React
 4. 웹앱(모바일웹)
 ### 사용한 오픈소스
+사용한 오픈API:
+- GPT3  
+
 프론트엔드에서 사용한 모듈:
 - react-redux
 - redux
