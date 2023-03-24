@@ -506,19 +506,20 @@ deepsort(https://github.com/mikel-brostrom/yolov8_tracking), Yolov5와 함께 �
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1cUzBgv97MnaDXkxlc7_NddbO8zShhQnW
 ### 무얼 만들었는가
-입력된 미디파일을 로파이 스타일로 변경해주는 웹 사이트를 만드는 중
+딥러닝 기반 음악 스타일 트랜스퍼 기술을 사용해 사용자가 원하는 음악(midi)을 Lo-fi 스타일로 변경해 스트리밍하는 웹 Lo-Fi Player
 ### 구현환경
-1. os -우분투, 웹프레임웍-python/flask
-2. 데이터베이스는 사용하지 않음
-3. 이용하지 않음
+1. OS - Ubuntu, 웹프레임웍 - Python/Flask
+2. 데이터베이스 사용하지 않음
+3. Javascript
 4. 웹
 5. x
 ### 사용한 오픈소스
-tonejs, magenta
+Google Magenta / SoX / Tone.js(midi)
 ### 사용한 AI
-groove2groove(https://github.com/cifkao/groove2groove.git)-음악 스타일 트랜스퍼, tensorflow
+groove2groove(https://github.com/cifkao/groove2groove.git)
+Tenserflow로 제작된 오픈소스 딥러닝 모델을 수정해서 이용하고 있습니다.
 ### 사용한 클라우드
-아직 정해지지 않음.
+AWS EC2 - 서버 배포 (예정)
 
 # Team25. 밤낮박김
 ### 스타트단계 발표자료
