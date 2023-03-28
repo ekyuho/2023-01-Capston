@@ -450,22 +450,21 @@ https://drive.google.com/open?id=1413jtnGtzZPS9u773nSXjhkLQP2f_D-l
 ### 무얼 만들었는가
 전자책 텍스트 분석을 통해 분위기에 맞는 배경음악을 제공해주는 안드로이드 백그라운드 앱
 ### 구현환경
-1. 윈도우즈, python/flask
-2. firebase (or mysql)
-3. 안드로이드 스튜디오 Java 기반
-4. android 어플 개발
+1. Windows, Python/Flask
+2. Firebase (or Mysql)
+3. 안드로이드 스튜디오 Kotlin 기반 Android 어플 개발
 ### 사용한 오픈소스
-백엔드 : flask, stream_with_context, response, request, json, firebase_admin
+백엔드 : Flask, stream_with_context, response, request, json, firebase_admin 
 프론드엔드: 백그라운드에서 화면을 읽어오기 위한 MediaProjectionAPI : https://github.com/bictoselfdev/MediaProjectionEx
 ### 사용한 AI
-pytorch언어를 사용하여 인공지능 모델을 개발합니다.
--pretrained kobert nlp 모델을 사용하여 텍스트 다중감성분류를 수행합니다.
--직접 쌓은 cnn 모델을 사용하여 음악 다중감성분류를 수행합니다.
--ocr을 (TesseractAPI) 이용해서 스크린샷 텍스트 추출
+Pytorch언어를 사용하여 인공지능 모델을 개발합니다. 
+-Pretrained KoBert NLP 모델을 사용하여 텍스트 다중감성분류를 수행 
+-직접 쌓은 CNN 모델을 사용하여 음악 다중감성분류를 수행 
+-OCR을 (Firebase ML Kit Text Recognizer) 이용해서 스크린샷 텍스트 추출 
 ### 사용한 클라우드
-구글의 firebase를 클라우드로 사용합니다. 무료로 사용하고 있습니다.
-- storage: mp3 음악 파일을 저장하고 있습니다.
-- realtime database : 음악의 메타데이터 json파일을 저장하고 있습니다.
+구글의 Firebase를 클라우드로 사용합니다. 무료로 사용하고 있습니다. 
+- Storage: mp3 음악 파일을 저장하고 있습니다. 
+- Realtime Database : 음악의 메타데이터 json파일을 저장하고 있습니다. 
 
 # Team22. 영시스터즈
 ### 스타트단계 발표자료
