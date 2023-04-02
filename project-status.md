@@ -106,24 +106,24 @@ Tensorflow 를 사용합니다.
 
 # Team7. COYD
 ### 스타트단계 발표자료
-https://drive.google.com/open?id=1uWNLHgf0YxHPEvAblkYJIeOK3IHmPDFq, https://drive.google.com/open?id=1q2DZpevUbEFIhJcNl1HIOBs_jaMDuPME, https://drive.google.com/open?id=1-Ha64QZ3GZEB-rYuI4VVPX3cR-J4-nP8, https://drive.google.com/open?id=1eFQYkbN0tAuSKxWtobwF89r5_Ldjs5Mx, https://drive.google.com/open?id=1x0x6WNrLA9ID2Jj2wlXlkbWoWjXpsA42
+https://docs.google.com/presentation/d/1wQEHLbqlm7x2ozz3LvykmftvS_46eb3H/edit?usp=sharing&ouid=103392791996621782207&rtpof=true&sd=true
 ### 무얼 만들었는가
-스타트 학기에는 ‘성장 주기별 아이용 스마트 옷장 관리 및 중고거래 서비스’를 주제로 프로젝트를 진행하였습니다. 해당 프로젝트는 하루하루 발육 정도가 눈에 띄게 달라지는 아이(특히 영유아)의 옷을 관리하기 위해 출발하였습니다.
-사용자는 아이의 옷 사진을 찍고, 해당 옷을 입었던 당시 아이의 신체 정보(키, 몸무게 등)를 입력합니다. 저희 서비스는 등록된 옷 사진으로 옷의 크기를 측정하고, 여기에 사용자가 입력한 옷의 부가 정보를  더하여 해당 옷의 정보를 저장합니다. 
-추후에 아이가 더이상 옷을 입지 못하는 상황이 되면 사용자는 해당 옷을 중고거래에 등록할 수 있습니다. 저희 서비스에선 해당 옷에 대한 정보(입었던 당시 신체크기, 개월 수, 옷의 사이즈 등)를 가지고 있기 때문에, 사용자는 보다 쉽게 중고 거래에 의류 정보를 기입할 수 있습니다. 
+블록체인을 사용한 중고책 기부 프로젝트
+[WHO] 기부를 하고 싶으나 여유돈이 없거나, 기부하려는 재단의 투명성을 의심하는 사람들에게
+[WHY] 활발한 기부 문화를 형성하기 위해
+[HOW] 블록체인을 통해 투명한 거래를 보장하고, “기부 토큰”으로 기부의 가치를 인식.
+1. 나에게 필요 없는 중고책을 기증하거나, 나에게 필요한 중고책을 사면서 자연스럽게 기부 과정에 참여
+2. 기부에 참여한 만큼 늘어나는 "COYToken"으로 내 기부의 가치를 한눈에 확인.
 
-스타트 최종 발표 이후, 주제 변경이 있었습니다. “블록체인을 활용한 중고 거래 기부 플랫폼”으로 주제를 변경하였습니다. 방학 기간 동안 해당 주제로 개발을 진행하였습니다.
 ### 구현환경
-웹 프레임워크는 백엔드 node.js/express, 프론트엔드 React, 데이터베이스 DB sqlite3, os 윈도우를 사용하였습니다.
-웹 클라이언트를 만들었습니다.
-현재 Polygon 네트워크 테스트 체인인 Mumbai에서 스마트 컨트랙트를 배포하여 개발 진행, 추후 메인 체인 배포 가능성 있음.
+웹 프레임워크는 백엔드 node.js/express, 프론트엔드 React, 데이터베이스 mySQL, os 윈도우를 사용하였습니다.
+스마트컨트랙트는 EVM에 호환되는 Solidity로 작성되었으며 Polygon Testnet인 Mumbai Network에 배포하였습니다.
 ### 사용한 오픈소스
-npm @ethersproject/providers
 npm @openzeppelin-solidity
 ### 사용한 AI
 없습니다
 ### 사용한 클라우드
-아직 배포 전이라 해당 비용 발생하지 않았습니다.
+AWS의 EC2와 RDS를 통해 배포 예정입니다.
 
 # Team8. 어푸어푸
 ### 스타트단계 발표자료
