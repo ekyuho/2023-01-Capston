@@ -648,18 +648,24 @@ $0.005 per Elastic IP address not attached to a running instance per hour (prora
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1dTKNpfkApiQEpbGspJmpT0FxKwRgHsf5
 ### 무얼 만들었는가
-주제 선정, 기술 선정, 웹사이트 구조 디자인(Figma), 웹사이트 기본 기능 구현, 데이터셋 구축, 딥러닝 모델 학습 (진행중)
+이미지 및 텍스트 분석 기반 실종 반려견 찾기 서비스인 품(POOM)을 만들었습니다.
+
+POOM은 반려견을 잃어버렸을 때 견주들이 겪게 되는 시간적, 금전적 측면의 비효율 문제 해결을 위해 두 가지 주요 기술을 채택하였습니다.
+
+두 가지 주요 기술은 FaceNet 모델을 강아지에게 적용한 이미지 검색 기능과 SBERT를 적용하여보다 의미론적인 텍스트 검색 기능입니다.
+
+POOM은 이러한 검색 기능과 더불어 게시글 알림 기능을 제공하며 실종 반려견이 주인의 품으로 다시 돌아가는 비율을 높이는 것을 기대합니다.
 ### 구현환경
-1. OS - 윈도우즈, 웹프레임웍 - Python/django
-2. dbSQLite
-3. 사용하지 않음
-4. 웹
+-	OS: Windows
+-	Web: Python/Django
+-	DB: SQLite
+-	반응형 웹사이트를 개발합니다.
 ### 사용한 오픈소스
-없다
+없습니다.
 ### 사용한 AI
-Tensorflow
+https://github.com/GuillaumeMougeot/DogFaceNet : DogFaceNet 모델을 사용합니다. 자체적으로구축한 데이터셋으로 모델을 학습시키며 정확도를 높여나가고 있습니다.
 ### 사용한 클라우드
-AWS 사용 예정
+서비스 배포 시 AWS를 이용할 예정입니다.
 
 # Team31. 존버그
 ### 스타트단계 발표자료
