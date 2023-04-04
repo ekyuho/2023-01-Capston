@@ -630,16 +630,27 @@ https://drive.google.com/open?id=1vwizJNtmjBurXEGxU_8zvklGzp_qLoeV
 ### 구현환경
 1. OS: ubuntu, 프레임워크: node.js/express
 2. 데이터베이스: mysql
-3. X
-4. 클라이언트: iOS 네이티브 앱, 개발언어 - Swift
-5. X
+3. 클라이언트: iOS 네이티브 앱, 개발언어 - Swift
 ### 사용한 오픈소스
-ffmpeg: 디지털 음성 스트림과 영상 스트림 편집 라이브러리. 시선과 표정데이터 분석 결과를 바탕으로 원본 영상을 편집하여 하이라이트/쇼츠 동영상을 제작하는데 필요.[https://github.com/FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg)
-pymysql: python에서 sql문법을 사용해 데이터베이스를 다루는 라이브러리.
+- [ffmpeg](https://github.com/FFmpeg/FFmpeg)
+    - 디지털 음성 스트림과 영상 스트림 편집 라이브러리
+    - 시선과 표정데이터 분석 결과를 바탕으로 원본 영상을 편집하여 하이라이트/쇼츠 동영상을 제작하는데 사용 
+- [PyMySQL](https://github.com/PyMySQL/PyMySQL)
+    - python에서 sql문법을 사용해 데이터베이스를 다루는 라이브러리
+- [PySceneDetect](https://github.com/Breakthrough/PySceneDetect)
+    - 비디오 분석 및 장면 감지 소프트웨어
+    - 자동 장면 분할 기능 구현에 사용
+- [CoreMLTools](https://github.com/apple/coremltools)
+    - TensorFlow, Keras 및 PyTorch와 같은 널리 사용되는 기계 학습 프레임워크에서 Apple의 Core ML 형식으로 모델을 변환하는 라이브러리
 ### 사용한 AI
-SeeSo: 시선 추적 SDK, iOS 2.5.1 버전
-MiniXception: 표정 분석 모델, [https://arxiv.org/abs/1710.07557](https://arxiv.org/abs/1710.07557)
-YOLOv5: 동영상 내 객체 인식 용도
+- [SeeSo](https://visual.camp/seeso-sdk/)
+    - 인공지능 기반 시선 추적 SDK
+    - iOS 2.5.1 버전
+- [MiniXception](https://arxiv.org/abs/1710.07557)
+    - 표정 인식 모델
+- [YOLOv5](https://github.com/ultralytics/yolov5)
+    - 객체 인식 인공지능
+    - 동영상 내 객체 인식 용도
 ### 사용한 클라우드
 AWS EC2 인스턴스에 서버 구동중
 $0.005 per Elastic IP address not attached to a running instance per hour (prorated) 항목으로USD 3.82 지출하였습니다.
