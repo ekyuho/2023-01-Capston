@@ -450,21 +450,20 @@ https://drive.google.com/open?id=1413jtnGtzZPS9u773nSXjhkLQP2f_D-l
 ### 무얼 만들었는가
 전자책 텍스트 분석을 통해 분위기에 맞는 배경음악을 제공해주는 안드로이드 백그라운드 앱
 ### 구현환경
-1. Windows, Python/Flask
-2. Firebase (or Mysql)
-3. 안드로이드 스튜디오 Kotlin 기반 Android 어플 개발
+1. Windows, Python/Node.js  
+2. Firebase, AWS, MySQL   
+3. 안드로이드 스튜디오 Kotlin 기반 Android 어플 개발  
 ### 사용한 오픈소스
-백엔드 : Flask, stream_with_context, response, request, json, firebase_admin 
-프론드엔드: 백그라운드에서 화면을 읽어오기 위한 MediaProjectionAPI : https://github.com/bictoselfdev/MediaProjectionEx
+백엔드 : Node.js, stream_with_context, response, request, json, firebase_admin   
+프론드엔드: Firebase ML Kit, MediaProjectionAPI  
 ### 사용한 AI
-Pytorch언어를 사용하여 인공지능 모델을 개발합니다. 
--Pretrained KoBert NLP 모델을 사용하여 텍스트 다중감성분류를 수행 
--직접 쌓은 CNN 모델을 사용하여 음악 다중감성분류를 수행 
--OCR을 (Firebase ML Kit Text Recognizer) 이용해서 스크린샷 텍스트 추출 
+Pytorch언어를 사용하여 인공지능 모델을 개발합니다.    
+-Pretrained KoBert NLP 모델을 사용하여 텍스트 다중감성분류를 수행   
+-직접 쌓은 CNN 모델을 사용하여 음악 다중감성분류를 수행     
 ### 사용한 클라우드
-구글의 Firebase를 클라우드로 사용합니다. 무료로 사용하고 있습니다. 
-- Storage: mp3 음악 파일을 저장하고 있습니다. 
-- Realtime Database : 음악의 메타데이터 json파일을 저장하고 있습니다. 
+구글의 Firebase를 클라우드로 사용합니다. 무료로 사용하고 있습니다.    
+- Firebase Storage: mp3 음악 파일을 저장하고 있습니다.   
+- Realtime Database : 음악의 메타데이터 json파일을 저장하고 있습니다.   
 
 # Team22. 영시스터즈
 ### 스타트단계 발표자료
@@ -630,27 +629,16 @@ https://drive.google.com/open?id=1vwizJNtmjBurXEGxU_8zvklGzp_qLoeV
 ### 구현환경
 1. OS: ubuntu, 프레임워크: node.js/express
 2. 데이터베이스: mysql
-3. 클라이언트: iOS 네이티브 앱, 개발언어 - Swift
+3. X
+4. 클라이언트: iOS 네이티브 앱, 개발언어 - Swift
+5. X
 ### 사용한 오픈소스
-- [ffmpeg](https://github.com/FFmpeg/FFmpeg)
-    - 디지털 음성 스트림과 영상 스트림 편집 라이브러리
-    - 시선과 표정데이터 분석 결과를 바탕으로 원본 영상을 편집하여 하이라이트/쇼츠 동영상을 제작하는데 사용 
-- [PyMySQL](https://github.com/PyMySQL/PyMySQL)
-    - python에서 sql문법을 사용해 데이터베이스를 다루는 라이브러리
-- [PySceneDetect](https://github.com/Breakthrough/PySceneDetect)
-    - 비디오 분석 및 장면 감지 소프트웨어
-    - 자동 장면 분할 기능 구현에 사용
-- [CoreMLTools](https://github.com/apple/coremltools)
-    - TensorFlow, Keras 및 PyTorch와 같은 널리 사용되는 기계 학습 프레임워크에서 Apple의 Core ML 형식으로 모델을 변환하는 라이브러리
+ffmpeg: 디지털 음성 스트림과 영상 스트림 편집 라이브러리. 시선과 표정데이터 분석 결과를 바탕으로 원본 영상을 편집하여 하이라이트/쇼츠 동영상을 제작하는데 필요.[https://github.com/FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg)
+pymysql: python에서 sql문법을 사용해 데이터베이스를 다루는 라이브러리.
 ### 사용한 AI
-- [SeeSo](https://visual.camp/seeso-sdk/)
-    - 인공지능 기반 시선 추적 SDK
-    - iOS 2.5.1 버전
-- [MiniXception](https://arxiv.org/abs/1710.07557)
-    - 표정 인식 모델
-- [YOLOv5](https://github.com/ultralytics/yolov5)
-    - 객체 인식 인공지능
-    - 동영상 내 객체 인식 용도
+SeeSo: 시선 추적 SDK, iOS 2.5.1 버전
+MiniXception: 표정 분석 모델, [https://arxiv.org/abs/1710.07557](https://arxiv.org/abs/1710.07557)
+YOLOv5: 동영상 내 객체 인식 용도
 ### 사용한 클라우드
 AWS EC2 인스턴스에 서버 구동중
 $0.005 per Elastic IP address not attached to a running instance per hour (prorated) 항목으로USD 3.82 지출하였습니다.
