@@ -486,23 +486,19 @@ S3 - 사용자 음성 녹음 데이터 저장 위함
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1UvZf8CzSuAexXBd3ZXHn4VoCjpQ36HX3
 ### 무얼 만들었는가
-웹 기획 및 디자인
-웹 프론트엔드 ui 구현
-웹 백엔드 기능 구현
-드론 적용을 위한 공 추적 알고리즘 작성
-두 사람의 패스 수 카운트 구현 (경기분석)
+드론으로 촬영한 아마추어 풋살 영상을 바탕으로 각 팀별 플레이를 자동으로 분석하고, 이후 영상 및 분석 결과를 웹 '골 투 어스'로 제공한다. 또한 웹에서 경기 매칭 서비스도 제공한다.
 ### 구현환경
-1. OS - 윈도우즈, 웹 프레임웍 - java/spring
-2. 데이터베이스 - mysql
-3. 프론트엔드 프레임워크 - react
-4. 웹
+1. OS - Ubuntu(AWS 가상환경), 웹 프레임웍 - Spring Boot, React.js
+2. 데이터베이스 - MySQL
+3. 웹 서버 - AWS EC2
 ### 사용한 오픈소스
 OpenCV
 ### 사용한 AI
 Yolov5(https://github.com/ultralytics/yolov5), 경기 분석 용도
-deepsort(https://github.com/mikel-brostrom/yolov8_tracking), Yolov5와 함께 사용하여 경기 분석
+DeepSort(https://github.com/mikel-brostrom/yolov8_tracking), Yolov5와 함께 사용하여 경기 분석
 ### 사용한 클라우드
-텐센트 GPU 클라우드 사용 예정
+AWS EC2, RDS 사용
+AWS S3 사용 예정
 
 # Team24. 캐릭캐릭뮤직체인지
 ### 스타트단계 발표자료
