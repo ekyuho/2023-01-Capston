@@ -130,6 +130,7 @@ AWS의 EC2와 RDS를 통해 배포 예정입니다.
 https://drive.google.com/open?id=1ffptYCT54IDsl5lPkmYUjOZR43hMCXNR
 ### 무얼 만들었는가
 [영상 인식 기반 드론을 이용한 수상 안전 요원]
+드론이 하는 수상 모니터링, 사람을 구하다
 
 - yolov5를 이용하여 물에 빠진 사람 구분
 - 깊이 추정을 이용하여 물에 빠진 사람의 위치를 받아와서 알림
