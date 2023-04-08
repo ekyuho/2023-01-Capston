@@ -159,18 +159,26 @@ https://drive.google.com/open?id=1B7d09pticyBxwzl-pgfyVOvP9tP2-Xwr
 ### 무얼 만들었는가
 - 스타트 당시에는 ‘객체 인식 아날로그 스캐너: 아날로그 데이터의 디지털화’를 주제로 해당 기술을 구현하는 데 있어서 핵심이 될 기술 3가지를 구현 및 검증하는데 집중
 - Image 전처리(Tesseract를 이용한 Outline detection 및 영역 grouping), OCR을 이용한 Text 인식, python open CV를 이용한 개체 인식을 중심으로 기술 리서치
+- 새로운 주제로 바꾼 뒤(그로쓰) DB 구성, Django 셋팅, API 개발 등을 진행 중에 있습니다.
 ### 구현환경
-- 백엔드: python/django, mysql(또는 sqllite)
-- 프론트엔드:  TypeScript, React, Javascipt, SASS
-- 적응형 웹 구현
-- 블록체인 티켓 거래 도입을 위한 Solidity 스마트 컨트랙트 작성
+- 백엔드: python/django, mysql(또는 sqllite), AWS(Lambda, RDS, Cognito, API Gateway, SQS)
+- 프론트엔드:  TypeScript, React, Javascipt, SASS, AWS(CloudFront,S3)
+- 모바일 적응형 웹 구현
 ### 사용한 오픈소스
 - iamport 결제 연동 : [https://api.iamport.kr/](https://api.iamport.kr/)
 - nginx 웹 서버 연동
+- QR코드
+    - QR코드 생성 : [https://github.com/zpao/qrcode.react](https://github.com/zpao/qrcode.react)
+    - 스캐너 : [https://github.com/JodusNodus/react-qr-reader](https://github.com/JodusNodus/react-qr-reader)
 ### 사용한 AI
-없습니다.
+Amazon Personalize : 각 회원별로 회원가입할 때 선호하는 행사 카테고리를 수집하고, 이후 참여하는 행사의 카테고리 정보를 수집하여 전처리한 데이터를 토대로 개인별로 적절한 행사를 추천하는 솔루션을 사용하고자 한다. 
 ### 사용한 클라우드
-AWS를 통해 배포할 예정입니다.
+- AWS API Gateway & Lambda : API 개발
+- AWS RDS : 데이터베이스 관리
+- Amazon Cognito : 로그인, 사용자 관리
+- AWS SQS : 트래픽 처리
+- AWS Cloudfront : 프론트엔드 웹서버 
+- AWS S3 Bucket : 이미지 저장
 
 # Team10. GSD
 ### 스타트단계 발표자료
