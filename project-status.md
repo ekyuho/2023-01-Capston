@@ -430,22 +430,31 @@ Colab Pro / 현재까지 지출 약 6만원
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1TBu-O_p66kHltucaOl0NXss_he9hiqwg
 ### 무얼 만들었는가
-웹서비스 기획, 인공지능 모델을 통한 기술 검증(유사도 측정 및 본문 요약)
+개인이 진행하는 길고양이 구조 모금의 불편함과 기부금 횡령 문제를 완화하기 위해 블록체인 기반 길고양이 기부 플랫폼을 제공한다. 기부한 금액을 암호화폐로 환전하고, 기부내역을 이더리움 네트워크에 저장한다. 스마트 컨트랙트를 사용하여 분산원장에 기부내역을 저장하고, 이를 투명하게 공개함으로써 신뢰할 수 있는 웹 기반 기부 플랫폼을 만들고자 한다. 
 ### 구현환경
-1. os : 윈도우, 웹프레임워크 : java/spring boot, ci/cd : 젠킨스
-2. 데이터베이스 : mysql(maria DB), AWS S3 저장소 사용
-3. front-end : React, Typescript
-4. 클라이언트 : 웹
+1. 운영체제: 윈도우
+2. 웹
+* Back-End:  Spring boot(Java) 
+* Front-End: React(Typescript)
+* Database: MySQL(Maria DB), AWS S3, AWS RDS
+* CI/CD: Jenkins
+3. 블록체인
+* Smart-Contract: Solidity
+* Ethereum-wallet: Web3
+* Testnet: Goerli Testnet
+* Ethereum Network
+4. 배포
+* Docker
+* AWS EC2
 ### 사용한 오픈소스
-결제 모듈, 계좌실명조회 open api, 더치트 금융사기방지 api, 이더리움
+1. 웹: 금액 결제 모듈 / 더치트 금융사기 방지 API/ 계좌실명조회 API/ Clova OCR
+2. 블록체인: Web3
 ### 사용한 AI
 없다
 ### 사용한 클라우드
-aws ec2/서버
-
-aws s3/저장소(이미지 저장)
-
-aws codeDeploy/CICD
+1. 클라우드: AWS EC2
+2. 데이터베이스: AWS RDS
+3. 이미지 저장을 위한 클라우드: AWS S3
 
 # Team21. 백조
 ### 스타트단계 발표자료
