@@ -710,17 +710,16 @@ AWS
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=16kdd0wVj9aZpovWpCdfC2AllVkj9QmsG
 ### 무얼 만들었는가
-저희 팀은 BFP (Block Floating-Point)를 이용해 ray tracing 알고리즘의 최적화하는 연구를 진행하고 있습니다. 이 연구를 위해 스타트 첫 학기에 크게 두 가지의 결과물을 만들었습니다.
+저희 팀은 Low Precision를 활용해 ray tracing 알고리즘의 최적화하는 연구를 진행하고 있습니다. 이 연구를 위해 스타트 첫 학기에 크게 두 가지의 결과물을 만들었습니다.
 
-첫 번째는 BFP 연산을 지원하는 사칙연산 프로그램을 만들었습니다. 이 프로그램은 두 floating point를 연산하는 일반 사칙연산뿐만 아니라 BFP 연산을 소프트웨어적으로 구현합니다. 그러나 아직 에러가 존재하여 완성하지는 못한 상황입니다. 이번 그로쓰에서 에러들을 해결한 후 완성된 BFP 연산 프로그램을 이용해 BFP 연산이 ray tracing 알고리즘을 최적화하는지 그 여부를 실험해보고자 합니다.
+첫 번째는 Low Precision 연산을 지원하는 사칙연산 프로그램을 만들었습니다. 이 프로그램은 다양한 precision을 지원하며, 두 low precision floating point의 연산을 소프트웨어적으로 구현한 에뮬레이터(emulator)입니다. 현재 일부 예외 상황에 대한 에러가 존재하여 해결 중에 있습니다. 이번 그로쓰에서는 이러한 에러들을 최대한 해결한 후, 완성된 Low Precision 연산 프로그램을 기본 Ray Tracing 프로그램에 적용하여 Low Precision ray tracing의 가능성을 증명하고자 합니다. 
 
-두 번째 결과물은 ray tracing 알고리즘입니다. 저희 팀은 ray tracing 알고리즘을 자체적으로 구현하였으며, 다양한 알고리즘 중 BVH (Bounding Volume Hierarchy)를 활용하는 알고리즘을 택했습니다. 위에서 언급한 BFP 연산 프로그램을 저희가 구현한 ray tracing 알고리즘에 적용하여 실험을 진행할 계획입니다.
+두 번째 결과물은 ray tracing 알고리즘입니다. 저희 팀은 기본 ray tracing 알고리즘을 구현하였으며, 레이 트레이싱을 개선하기 위한 가속 자료구조 중 'BVH (Bounding Volume Hierarchy)'를 활용하고 있습니다. 앞서 언급한 Low Precision 연산기 프로그램을 저희가 구현한 Ray Tracing 알고리즘에 적용하여 다양한 precision에 대한 실험을 진행할 계획입니다.
 ### 구현환경
 OS는 Linux를 사용하고 있으며 CUDA를 이용하여 GPU를 활용하고 있습니다
 ### 사용한 오픈소스
 레이 트레이서 뼈대 (교재)
 https://raytracing.github.io/
-
 
 복잡한 3차원 물체(triangular mesh) 렌더링하기
 https://github.com/mgaillard/Renderer
@@ -728,7 +727,7 @@ https://github.com/anandhotwani/obj_raytracer
 ### 사용한 AI
 없습니다. 
 ### 사용한 클라우드
-저희는 연구트랙이기 때문에 서비스를 위한 클라우드를 사용하지 않습니다. 
+저희는 연구트랙으로, 서비스를 위한 클라우드를 사용하지 않습니다. 
 
 # Team33. 삼문철
 ### 스타트단계 발표자료
