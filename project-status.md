@@ -365,18 +365,20 @@ AWS - 배포, 호스팅
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1YwfKctIi-juGjHOBxGUqyIi1SoVryyc9
 ### 무얼 만들었는가
-팀의 주제인 '판례 암기 어플리케이션'을 제작하기 위해 필요한 기능들을 정리하며 기획서를 작성했습니다. 어플리케이션의 사용 방법을 구체화하기 위해 와이어프레임과 프로토타입을 제작했으며, SENTENCE-KOBERT와 OCR 기술을 검증하는 시간을 가졌습니다.
+팀의 주제인 '고시생을 위한 판례 암기 어플리케이션'을 제작하기 위해 필요한 기능들을 정리하며 기획서를 작성했습니다. 어플리케이션의 사용 방법을 구체화하기 위해 와이어프레임과 프로토타입을 제작했으며, SENTENCE-KOBERT와 OCR 기술을 검증하는 시간을 가졌습니다.
 ### 구현환경
-1. Back-End로는 Java/Spring boot를 사용하고 있습니다.
-2. 데이터베이스는 mysql을 메인으로 사용하며, 회원 토큰 저장에는 redis를 사용하고 있습니다.
-3. Front-End에서는 Flutter를 사용하고 있습니다.
-4. Flutter를 사용하여 크로스 플랫폼 앱을 만들고자 합니다. 다만 개발 환경은 Android 기기입니다.
+1. OS는 Ubuntu이며, docker를 사용하고 있습니다.
+2. Back-End로는 Java/Spring boot를 사용하고 있습니다.
+3. 데이터베이스는 mysql을 메인으로 사용하며, 회원 토큰 저장에는 redis를 사용하고 있습니다.
+4. Front-End에서는 Flutter를 사용하고 있습니다.
+5. Flutter를 사용하여 크로스 플랫폼 앱을 만들고자 합니다. 다만 개발 환경은 Android 기기입니다.
 ### 사용한 오픈소스
 네이버 OCR: https://www.ncloud.com/product/aiService/ocr
+chatGPT openAI API: https://platform.openai.com/overview
 ### 사용한 AI
-없다
+없습니다.
 ### 사용한 클라우드
-네이버 OCR: 사용자의 노트에 있는 판결 요지를 추출하기 위해 사용함
+네이버 OCR: 사용자의 노트에 있는 판결 요지를 추출하기 위해 사용합니다.
 
 # Team18. 우리는삼총사
 ### 스타트단계 발표자료
