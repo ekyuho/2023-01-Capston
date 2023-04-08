@@ -281,15 +281,18 @@ Socket.io: https://socket.io
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=1YOCh5dz6fGsOB2tgbypScwR-xPoSfaAY
 ### 무얼 만들었는가
-어두운 밤에 횡단보도를 건너는 보행자를 자동으로 인식하여 추적하며 조명을 비추어주는 조명 시스템을 만들고자 하였습니다
+청각장애를 가진 부모님이 아이를 보고 있지 않아도 아이에게 일이 생겼을 때 핸드폰 알림으로 알 수 있는 서비스를 만들었습니다.
 ### 구현환경
-프론트는 flutter 프레임워크를 이용하여 android앱을 만들고자 하였고, spring boot 프레임워크를 이용하여 백엔드를 구현하고자 하였습니다. db는 mysql 이용하였습니다.
+프론트:flutter 
+백엔드: spring boot
+이미지 전처리: librosa
 ### 사용한 오픈소스
-아두이노 서보모터와 레이저 모듈을 이용하여 전달 받은 객체의 정확한 위치에 레이저로 포인팅이 가능한지 확인하였습니다.
+-
 ### 사용한 AI
-Yolo4에 coco dataset을 학습시켜 사람 객체를 인식하였습니다.
+resnet 모델 
 ### 사용한 클라우드
-AWS
+AWS s3
+AWS EC2
 
 # Team14. 고글
 ### 스타트단계 발표자료
