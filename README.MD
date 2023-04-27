@@ -9,7 +9,3 @@ Readme.md
 kim
 
 Kyuho
-
-
-
-
