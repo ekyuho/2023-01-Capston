@@ -74,7 +74,7 @@ https://drive.google.com/open?id=1AZykt2kG7CzMOGMrWaENFVNlomf-jTZd
 ### 스타트단계 발표자료
 https://drive.google.com/open?id=11kBn3zEsIumzh3sMB0ymeQLjmw88z2V0
 ### 무얼 만들었는가
-여러 인공지능 모델을 탐색하기 위해서 K-Means Clustering, LSTM, TF-IDF의 cosine similarity 등 여러 모델과 기술들을 파이썬으로 돌려보는 작업을 진행했습니다. 또한 React-Native와 Firebase, Flask, AWS을 연동했습니다.
+LSTM, K-Means Clustering, cosine similarity를 이용한 칵테일 추천 챗봇,  아이템 기반 추천 기능, 즐겨찾기 기능 및 칵테일 검색 기능을 만들었습니다. 
 ### 구현환경
 OS: 우분투
 웹프레임웍: Python/Flask
@@ -84,7 +84,8 @@ OS: 우분투
 ### 사용한 오픈소스
 없다
 ### 사용한 AI
-Tensorflow: Transformer 모델로 챗봇을 만들 때 사용합니다. LSTM 모델로 사용자를 분류할 때 사용합니다.
+Tensorflow: LSTM 모델을 사용자를 분류할 때 사용합니다. 
+Chat GPT API를 사용하여 사용자와 자유롭게 상호작용합니다.
 ### 사용한 클라우드
 AWS로 URL을 통해 외부에서 접속할 수 있도록 합니다. 현재까지 516원을 지출했습니다.
 
