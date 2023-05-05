@@ -250,7 +250,7 @@
 |항목|내용|
 |---|---|
 |키워드|Ray Tracing, Low Precision, 메모리와 연산 시간 최적화|
-|프로젝트명Custom Low Precision Floating-point를 활용한 BVH 기반 Ray Tracing 성능의 최적화|
+|프로젝트명|Custom Low Precision Floating-point를 활용한 BVH 기반 Ray Tracing 성능의 최적화|
 |기술요소|간단한(Path Tracing 기반의) Ray Tracing 알고리즘, CPFloat(low-precision 연산을 simluate한 C 라이브러리)|
 |내용|메모리, 시간 효율성을 최적화한 Custom Low Precision Ray Tracing|
 
