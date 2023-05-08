@@ -400,7 +400,7 @@ https://drive.google.com/open?id=1uUGkAY7Sy_kp6wIAAKpabt9vWXNNgn8l
 ### 구현환경
 1. OS - Linux, Web - Java/SpringBoot
 2. DB - Mysql
-3. FE - ReactNative
+3. FE - ReactNative, FireBase
 4. Client - Android
 5. Deep Learning Server - Python/FastAPI
 ### 사용한 오픈소스
