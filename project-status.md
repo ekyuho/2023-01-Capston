@@ -402,14 +402,14 @@ https://drive.google.com/open?id=1uUGkAY7Sy_kp6wIAAKpabt9vWXNNgn8l
 2. DB - Mysql
 3. FE - ReactNative
 4. Client - Android
-5. Deep Learning Server - Python/Flask
+5. Deep Learning Server - Python/FastAPI
 ### 사용한 오픈소스
 없습니다.
 ### 사용한 AI
 pytorch
 
 [https://github.com/carolchenyx/MGFN] (anomaly detection model)
-[https://flask.palletsprojects.com/en/2.2.x/] (flask 이용)
+[https://fastapi.tiangolo.com/ko/] (flask 이용)
 ### 사용한 클라우드
 AWS EC2 - 프로젝트 배포를 위해 사용하고 있습니다.
 AWS RDS - 데이터베이스 구축을 위해 사용하고 있습니다.
