@@ -170,9 +170,9 @@
 |항목|내용|
 |---|---|
 |키워드|Knowledge Distillation 경량화, PoseNet, 자율주행|
-|프로젝트명|PoseNet 경량화를 통한 저전력 환경 Visual localization DNN 모델 개발: RC카의 실내 자율주행을 대상으로|
+|프로젝트명|SCKD : similarity based knowledge distillation method for light camera pose regressor|
 |기술요소|Pytorch, JetsonNano, JetRacer, Knowledge Distillation|
-|내용|사진을 찍은 카메라의 위치(Position)과 방향(Orientation)을 예측하는 PoseNet 모델을 경량화하여 저전력의 모바일 환경에서 카메라만을 사용한 실내 자율 주행을 구현함으로써 실내 주행 로봇의 배터리 효율을 개선한다./ Light-PoseNet|
+|내용|사진을 찍은 카메라의 위치(Position)과 방향(Orientation)을 예측하는 camera pose regressor 모델을 경량화하여 저전력의 모바일 환경에서 카메라만을 사용한 실내 자율 주행을 구현함으로써 실내 주행 로봇의 배터리 효율을 개선한다./ Light-PoseNet|
 |데모시연|JetsonNano(팀에서 보유) - 저전력 Device에서의 실시간 추론 과정 시연, 실험 결과 열람을 위한 노트북 준비|
 
 ## Team20. 다섯시삼십분 (권영경 김다희 윤하은)
