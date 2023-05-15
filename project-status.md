@@ -431,7 +431,7 @@ PoseNet, PoseLSTM, AtLoc의 다양한 Camera pose estimation 모델을 기존 Be
 ### 사용한 오픈소스
 Jetson Nano 2GB AI Developer Kit
 ### 사용한 AI
-PyTorch 기반으로 개발을 진행하며, 사전학습된 GoogleNet 모델을 BackBone으로 한 PoseNet 모델을 사용한다. 
+PyTorch 기반으로 개발을 진행하며, 사전학습된 GoogleNet 모델을 BackBone으로 한 PoseNet 모델를 벤치마크해, 사전학습된 ResNet 모델을 BackBone 으로 한 Camera pose regressor 모델을 사용한다. 
 
 - PoseNet (pytroch)
 https://github.com/hazirbas/poselstm-pytorch](https://github.com/hazirbas/poselstm-pytorch
