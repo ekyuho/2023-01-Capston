@@ -419,7 +419,7 @@ AWS RDS - 데이터베이스 구축을 위해 사용하고 있습니다.
 https://drive.google.com/open?id=1rRcFXyMtxxkfbJ3M1CPJxtBDns0jTHHa
 ### 무얼 만들었는가
 스타트 첫 학기에 딥러닝 모델 학습과 자율주행 구현을 위한 하드웨어(Jetson Nano, LiDAR)를 마련하고 Jetson Nano의 구동을 위한 OS 환경 설정을 마쳤습니다.
-PoseNet, PoseLSTM, AtLoc의 다양한 Camera pose estimation 모델을 기존 Bench mark 실내 dataset에 학습시켜 프로젝트에 적합한 모델을 탐색하였습니다.
+PoseNet, PoseLSTM, AtLoc, ResNet 등 다양한 Camera pose estimation 모델을 기존 Bench mark 실내 dataset에 학습시켜 프로젝트에 적합한 모델을 탐색하였습니다.
 아이폰 내장 라이다를 사용하여 실제 자율주행 구현을 위한 아산공학관 2층 데이터 셋을 생성하였습니다.
 ### 구현환경
 1. PoseNet 모델 구현 : Pytorch
@@ -431,9 +431,9 @@ PoseNet, PoseLSTM, AtLoc의 다양한 Camera pose estimation 모델을 기존 Be
 ### 사용한 오픈소스
 Jetson Nano 2GB AI Developer Kit
 ### 사용한 AI
-PyTorch 기반으로 개발을 진행하며, 사전학습된 GoogleNet 모델을 BackBone으로 한 PoseNet 모델을 사용한다. 
+PyTorch 기반으로 개발을 진행하며, 사전학습된 GoogleNet 모델을 BackBone으로 한 PoseNet 모델를 벤치마크해, 사전학습된 ResNet 모델을 BackBone 으로 한 Camera pose regressor 모델을 사용한다. 
 
-- PoseNet (pytroch)
+- PoseNet (pytorch)
 https://github.com/hazirbas/poselstm-pytorch](https://github.com/hazirbas/poselstm-pytorch
 ### 사용한 클라우드
 Colab Pro / 현재까지 지출 약 6만원
