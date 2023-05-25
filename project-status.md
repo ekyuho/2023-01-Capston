@@ -224,41 +224,60 @@ https://drive.google.com/open?id=1YClJbVEN3oZjNL3-O-uuBAi_4jBE9tOU
 3. React
 4. 웹앱(모바일웹)
 ### 사용한 오픈소스
-사용한 오픈API:
-- ChatGPT API (GPT 3.5)
 
 프론트엔드에서 사용한 모듈:
 - react-redux
 - redux
+- styled-components
+- react-redux
+- redux-toolkit
+- redux-persist
+- axios
+- file-saver
+- jszip
+- react-router-dom
+- react-spinners
+- react-icons
+- react-datepicker
 
 백엔드에서 사용한 모듈:
 - djangorestframework
 - djangorestframework-simplejwt
 - django-corsheaders
+- django-apscheduler
 - boto3
+- Pillow
 - PyMySql 
 - gunicorn
 
-개발이 진행됨에 따라 더 추가될 예정입니다
-### 사용한 AI
 1. YOLOv5, pyTorch
 URL : https://github.com/ultralytics/yolov5
-용도 : 입력된 사진을 labeling 할 때 이용. 예를 들어, 풍경 앞에서 인물 사진을 찍었다면, '나무' '인물' label을 찾아서 앨범 폴더 분류 시 이용. 
+용도 : 입력된 사진에 객체 tag를 붙일때 이용. 
+예를 들어, 바다 앞에서 음식을 들고 있는 사람을 찍었다면, [해변, 사람, 음식] 을 detect해 앨범 폴더 분류 시 이용. 
+1단계로 scene dataset으로 fine-tuning한 모델로 scene classification진행
+2단계로 coco dataset으로 pre-trained된 yolov5m.pt를 이용해 object detection 진행
+
 
 2. MTCNN, TensorFlow
 URL : https://github.com/ipazc/mtcnn
-용도 : 인물 사진에서 face recognition을 통한 인물별 폴더 분류를 위한 모델
+용도 : face detection 모델. 하나의 이미지에서 얼굴에 해당하는 모든 부분을 찾아 crop할때 이용.
+
+
+3. ArcFace 손실함수를 이용한 Backbone 모델
+용도 : face embedding. 
 ### 사용한 클라우드
-AWS의 EC2 - 서버로 사용
+AWS의 EC2 - 웹 서버로 사용
 AWS의 RDS - 데이터베이스로 사용
 AWS의 S3 - 이미지 저장 공간으로 활용 (데이터베이스에는 이미지 주소를 저장), react 파일 저장하기 위해서 사용
 AWS의 Application Load Balancer, Route53 - https 배포를 위해 사용
 AWS의 cloudfront 사용 - js의 정적 파일 배포하기 위해서 사용
+Tencent Cloud 서버 사용 - AI 모델 서버로 이용
 
 
 현재까지 지출한 비용:
 도메인 구입비 - 5.5$
-서버 이용료 - 1.1$
+서버 이용료 - 6.45$
+Git LFS 이용료 - 5$
 
 # Team12. 함꼐가자
 ### 스타트단계 발표자료
