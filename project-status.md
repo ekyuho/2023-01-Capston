@@ -228,7 +228,7 @@ https://drive.google.com/open?id=1YClJbVEN3oZjNL3-O-uuBAi_4jBE9tOU
 프론트엔드에서 사용한 모듈:
 - react-redux
 - redux
-- styled-component
+- styled-components
 - react-redux
 - redux-toolkit
 - redux-persist
